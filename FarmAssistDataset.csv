@@ -1,0 +1,33 @@
+scheme_id,scheme_name,cropType,cropName,waterAvailability,annualIncome,region,district,farmSize
+1,National Food Security Mission (NFSM),Pulses,Urad(Black Gram),Yes,NA,"Pune, Aurangabad","Solapur, Osmanabad, Latur, Beed, Nanded, Aurangabad",NA
+2,Cashew Development Program,Cashew,Cashew,Yes,NA,"Kokan, Pune, Aurangabad, Nashik","Pune, Jalgaon, Ratnagiri, Sindhudurg, Aurangabad",NA
+3,National Horticulture Mission (NHM),Fruits,Mango,Yes,NA,"Kokan, Nashik, Nagpur","Raigad, Ratnagiri, Sindhudurg",NA
+4,Integrated Cereals Development Programme,Cereals,Paddy and Wheat,Yes,NA,"Kokan, Nashik, Nagpur, Pune, Aurangabad",NA,NA
+5,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Oilpalm,Oilpalm,Yes,NA,Kokan,"Ratnagiri, Sindhudurg, Thane",NA
+6,Oil palm area expansion programme (RKVY),Oilpalm ,Oilpalm,Yes,NA,Kokan,"Ratnagiri, Sindhudurg, Thane",NA
+7,Intensive for Nutritional Security through Intensive Millets Promotion (INSIMP),Cereals,Bajra (Pearl Millet),Yes,NA,"Kokan, Nashik, Nagpur, Pune, Aurangabad",NA,NA
+8,Centrally sponsored Sugar cane development scheme,Cash Crops,Sugarcane,Yes,NA,"Kokan, Nashik, Nagpur, Pune, Aurangabad",NA,NA
+9,Oilseed Production Programme,Oilseeds,Soybean,Yes,NA,"Nashik, Nagpur, Amravati","Amravati, Akola, Buldhana, Washim, Yavatmal, Nagpur, Wardha",NA
+10,Cotton Technology Mission,Cash Crops,Cotton,Yes,NA,"Kokan, Nashik, Nagpur, Pune, Aurangabad",NA,NA
+11,Oilseed Production Programme,Oilseeds,Groundnut(Peanut),Yes,NA,"Nashik, Pune, Aurangabad","Ahmednagar, Jalgaon, Sangli, Satara, Solapur,Osmanabad, Latur",NA
+12,Oilseed Production Programme,Oilseeds,Sunflower,Yes,NA,"Nashik, Pune","Ahmednagar, Pune, Nashik, Solapur",NA
+13,Oilseed Production Programme,Oilseeds,Sesame(Til),Yes,NA,Aurangabad,"Beed, Osmanabad, Latur, Jalna, Parbhani, Nanded",NA
+14,Oilseed Production Programme,Oilseeds,Mustard,Yes,NA,"Nashik, Amravati","Nandurbar, Dhule, Jalgaon, Buldhana, Washim, Yavatmal",NA
+15,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Oilseeds,Soybean,Yes,NA,"Nashik, Nagpur, Amravati","Amravati, Akola, Buldhana, Washim, Yavatmal, Nagpur, Wardha",NA
+16,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Oilseeds,Groundnut(Peanut),Yes,NA,"Nashik, Pune, Aurangabad","Ahmednagar, Jalgaon, Sangli, Satara, Solapur,Osmanabad, Latur",NA
+17,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Oilseeds,Sunflower,Yes,NA,"Nashik, Pune","Ahmednagar, Pune, Nashik, Solapur",NA
+18,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Oilseeds,Sesame(Til),Yes,NA,Aurangabad,"Beed, Osmanabad, Latur, Jalna, Parbhani, Nanded",NA
+19,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Oilseeds,Mustard,Yes,NA,"Nashik, Amravati","Nandurbar, Dhule, Jalgaon, Buldhana, Washim, Yavatmal",NA
+20,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Pulses,Tur(Pigeon Pea),Yes,NA,"Amravati, Nagpur","Akola, Amravati, Buldhana, Yavatmal, Washim, Wardha, Nagpur",NA
+21,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Pulses,Gram(Chickpea),Yes,NA,"Nashik, Pune, Aurangabad","Solapur, Ahmednagar, Pune, Osmanabad, Latur, Beed, Aurangabad",NA
+22,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Pulses,Moong(Green Gram),Yes,NA,"Nashik, Pune, Aurangabad","Ahmednagar, Solapur, Pune, Osmanabad, Beed, Latur, Nanded",NA
+23,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Pulses,Urad(Black Gram),Yes,NA,"Pune, Aurangabad","Solapur, Osmanabad, Latur, Beed, Nanded, Aurangabad",NA
+24,"Integrated scheme on Oilseeds, Pulses, Oilpalm and Maize(ISOPOM) Oilseeds, ",Maize,Maize,Yes,NA,"Nashik, Pune","Pune, Nashik, Ahmednagar, Jalgaon, Satara",NA
+25,National Food Security Mission (NFSM),Pulses,Tur(Pigeon Pea),Yes,NA,"Amravati, Nagpur","Akola, Amravati, Buldhana, Yavatmal, Washim, Wardha, Nagpur",NA
+26,National Food Security Mission (NFSM),Pulses,Gram(Chickpea),Yes,NA,"Nashik, Pune, Aurangabad","Solapur, Ahmednagar, Pune, Osmanabad, Latur, Beed, Aurangabad",NA
+27,National Food Security Mission (NFSM),Pulses,Moong(Green Gram),Yes,NA,"Nashik, Pune, Aurangabad","Ahmednagar, Solapur, Pune, Osmanabad, Beed, Latur, Nanded",NA
+28,National Horticulture Mission (NHM),Fruits,Grapes,Yes,NA,"Nashik, Pune","Nashik, Sangli, Solapur, Ahmednagar, Pune",NA
+29,National Horticulture Mission (NHM),Fruits,Banana,Yes,NA,"Nashik, Pune","Jalgaon, Dhule, Nandurbar, Ahmednagar, Pune, Satara",NA
+30,National Horticulture Mission (NHM),Fruits,Orange,Yes,NA,"Nagpur, Amravati","Nagpur, Amravati",NA
+31,National Horticulture Mission (NHM),Fruits,Guava,Yes,NA,"Nashik, Pune","Jalgaon, Pune, Satara, Sangli, Kolhapur ",NA
+32,National Horticulture Mission (NHM),Fruits,Pomegranate,Yes,NA,"Nashik, Pune","Nashik, Sangli, Solapur, Ahmednagar, Pune",NA
