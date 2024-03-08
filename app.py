@@ -2,13 +2,13 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 from fuzzywuzzy import fuzz
-
+import requests
 app = Flask(__name__)
 CORS(app, methods=['GET', 'POST', 'OPTIONS'])
 api_key = '0c8920ac69504b628c83d70f18a87c35'
 news_api_url = 'https://newsapi.org/v2/top-headlines'
 country_code = 'in' 
-
+express_endpoint = 'https://farm-assist-github-io.vercel.app/news'
 
 # Load the scheme data
 schemes_df = pd.read_csv("FarmAssistDataset.csv")
@@ -56,3 +56,33 @@ def similarity_score(farmer_profile, scheme):
     return normalized_score
 
 
+@app.route('/news')
+def get_news():
+    params = {
+        'country': country_code,
+        'apiKey': api_key,
+    }
+
+    try:
+        response = requests.get(news_api_url, params=params)
+
+        if response.status_code == 200:
+            news_data = response.json()
+
+            # Send the news data to the Express app
+            express_response = requests.post(express_endpoint, json=news_data)
+
+            if express_response.status_code == 200:
+                return jsonify(news_data)
+            else:
+                return jsonify({'error': f'Failed to send news data to Express. Status: {express_response.status_code}'})
+
+        else:
+            return jsonify({'error': f'Failed to fetch news data. Status: {response.status_code}'})
+
+    except Exception as e:
+        return jsonify({'error': f'Error fetching news data: {str(e)}'})
+
+from app import app
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
