@@ -2,13 +2,13 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 from fuzzywuzzy import fuzz
-import requests
 
-api_key = '0c8920ac69504b628c83d70f18a87c35'
-news_api_url = 'https://newsapi.org/v2/top-headlines'
-country_code = 'in'
 app = Flask(__name__)
 CORS(app, methods=['GET', 'POST', 'OPTIONS'])
+api_key = '0c8920ac69504b628c83d70f18a87c35'
+news_api_url = 'https://newsapi.org/v2/top-headlines'
+country_code = 'in' 
+
 
 # Load the scheme data
 schemes_df = pd.read_csv("FarmAssistDataset.csv")
@@ -38,27 +38,6 @@ def recommend():
     return jsonify({"recommendedSchemes": recommended_schemes})
 
 
-@app.route('/news')
-def get_news():
-    params = {
-        'country': country_code,
-        'apiKey': api_key,
-    }
-
-    try:
-        response = requests.get(news_api_url, params=params)
-
-        if response.status_code == 200:
-            news_data = response.json()
-            return jsonify(news_data)
-        else:
-            return jsonify({'error': f'Failed to fetch news data. Status: {response.status_code}'})
-
-    except Exception as e:
-        return jsonify({'error': f'Error fetching news data: {str(e)}'})
-
-
-
 def similarity_score(farmer_profile, scheme):
     score = 0
     total_score_possible = 0
@@ -76,5 +55,4 @@ def similarity_score(farmer_profile, scheme):
     normalized_score = score / total_score_possible if total_score_possible > 0 else 0
     return normalized_score
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+
