@@ -24,7 +24,7 @@ def recommend():
 
     for scheme_id, scheme_data in schemes_df.iterrows():
         score = similarity_score(farmer_profile, scheme_data)
-        if score > 4:
+        if score > 2:
             scheme_name = schemes_df.loc[scheme_id, "Scheme"]  
             scheme_link= schemes_df.loc[scheme_id, "Link"]
             recommended_schemes.append((scheme_id, score, scheme_name, scheme_link))
