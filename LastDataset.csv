@@ -1,4 +1,4 @@
-No.,Scheme ,Link,Crop Type,Farm Size (Hectares),Crop Names,Water Availability,Annual Income of Farmer,District,
+No.,Scheme,Link,Crop_Type,Farm_Size,Crop_Names,Water_Availability,Annual_Income_of_Farmer,District,
 1,National Food Security Mission (NFSM),https://www.nfsm.gov.in/,Pulses,2,Urad,Yes,NA,Solapur,
 2,Cashew Development Program,https://cashew.icar.gov.in/,Cashew,4,Cashew,Yes,NA,Pune,
 3,National Horticulture Mission (NHM),https://hortnet.gov.in/NHMhome_new.aspx,Fruits,4,Mango,Yes,NA,Raigad,
