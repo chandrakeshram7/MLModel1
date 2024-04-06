@@ -10,7 +10,7 @@ CORS(app, methods=['GET', 'POST', 'OPTIONS'])
 
 
 # Load the scheme data
-schemes_df = pd.read_csv("LastDataset.csv") 
+schemes_df = pd.read_csv("farmAssistImp.csv") 
 @app.route('/')
 def start():
     return "Flask Server is Running"
@@ -89,4 +89,5 @@ def similarity_score(farmer_profile, scheme):
 #     normalized_score = score / total_score_possible if total_score_possible > 0 else 0
 #     return normalized_score
 
-
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
